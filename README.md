@@ -14,6 +14,6 @@ This is a sample of android wake lock to turn on the screen when it's triggered.
         wakeLock.release();
         
         
-# make sure the following lines on android manifest.
+# make sure the following line included to your manifest file.
         
          <uses-permission android:name="android.permission.WAKE_LOCK"/>
