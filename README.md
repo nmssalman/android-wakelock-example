@@ -1,9 +1,11 @@
 # android-wakelock-example
 This is a sample of android wake lock to turn on the screen when it's triggered. 
-
-      
+        //import the following package
+        import android.os.PowerManager;
+        
+        
         PowerManager powerManager = (PowerManager) getSystemService(POWER_SERVICE);
-        wakeLock = powerManager.newWakeLock(PowerManager.FULL_WAKE_LOCK |
+        PowerManager.WakeLock wakeLock; = powerManager.newWakeLock(PowerManager.FULL_WAKE_LOCK |
                 PowerManager.ACQUIRE_CAUSES_WAKEUP |
                 PowerManager.ON_AFTER_RELEASE, "app::WakeLock");
 
