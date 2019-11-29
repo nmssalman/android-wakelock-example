@@ -1,4 +1,9 @@
 # android-wakelock-example
+
+Make sure that your android device has no security options and the following settings set no none,
+
+# Settings->Security->Screen Lock->None
+
 This is a sample of android wake lock to turn on the screen when it's triggered. 
         
         //import the following package
